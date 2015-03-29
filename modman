@@ -1,0 +1,4 @@
+app/code/local/Componentk/PaymentFee                                                    app/code/local/Componentk/PaymentFee
+app/design/adminhtml/default/default/layout/ck/paymentfee/totals.xml                    app/design/adminhtml/default/default/layout/ck/paymentfee/totals.xml
+app/design/adminhtml/default/default/template/ck/paymentfee/totals/payment_fee.phtml    app/design/adminhtml/default/default/template/ck/paymentfee/totals/payment_fee.phtml
+app/etc/modules/Componentk_PaymentFee.xml                                               app/etc/modules/Componentk_PaymentFee.xml

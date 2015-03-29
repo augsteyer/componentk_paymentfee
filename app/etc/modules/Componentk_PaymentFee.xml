@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Componentk_PaymentFee>
+            <active>true</active>
+            <codePool>community</codePool>
+            <version>0.1.0</version>
+            <depends>
+                <Mage_Payment />
+            </depends>
+        </Componentk_PaymentFee>
+    </modules>
+</config>

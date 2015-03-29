@@ -1,0 +1,45 @@
+<layout version="0.1.0">
+    <adminhtml_sales_order_view>
+        <reference name="order_totals">
+            <block type="adminhtml/sales_order_totals_item"
+                   name="payment_fee"
+                   template="ck/paymentfee/totals/payment_fee.phtml">
+                <action method="setSourceField">
+                    <value>fee_total</value>
+                </action>
+                <action method="setLabel" translate="value" module="paymentfee">
+                    <value>Fee</value>
+                </action>
+            </block>
+        </reference>
+    </adminhtml_sales_order_view>
+    <!-- @todo: implement with invoice, currently missing from DB -->
+    <adminhtml_sales_order_invoice_new>
+        <reference name="invoice_totals">
+            <block type="adminhtml/sales_order_totals_item"
+                   name="payment_fee"
+                   template="ck/paymentfee/totals/payment_fee.phtml">
+                <action method="setSourceField">
+                    <value>fee_total</value>
+                </action>
+                <action method="setLabel" translate="value" module="paymentfee">
+                    <value>Fee</value>
+                </action>
+            </block>
+        </reference>
+    </adminhtml_sales_order_invoice_new>
+    <adminhtml_sales_order_invoice_view>
+        <reference name="invoice_totals">
+            <block type="adminhtml/sales_order_totals_item"
+                   name="payment_fee"
+                   template="ck/paymentfee/totals/payment_fee.phtml">
+                <action method="setSourceField">
+                    <value>fee_total</value>
+                </action>
+                <action method="setLabel" translate="value" module="paymentfee">
+                    <value>Fee</value>
+                </action>
+            </block>
+        </reference>
+    </adminhtml_sales_order_invoice_view>
+</layout>
